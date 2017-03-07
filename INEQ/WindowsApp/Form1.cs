@@ -16,5 +16,23 @@ namespace WindowsApp
         {
             InitializeComponent();
         }
+
+        private void btniniciar_Click(object sender, EventArgs e)
+        {
+            string mensaje = BusinessLoyicLayer.UserBLL.iniciarSesion(txtUsuario.Text, txtpass.Text);
+            if (string.IsNullOrEmpty(mensaje))
+            {
+                MessageBox.Show("Bienvenido");
+            }
+            else
+            {
+                MessageBox.Show(mensaje);
+            }
+        }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

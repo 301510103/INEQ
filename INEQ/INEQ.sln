@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccesLager", "DataAcces
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLoyicLayer", "BusinessLoyicLayer\BusinessLoyicLayer.csproj", "{E4287767-5DF2-4E80-84EA-D030F5BCF961}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{CE97437F-56DE-46A5-99E6-9B983E1DC566}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E4287767-5DF2-4E80-84EA-D030F5BCF961}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4287767-5DF2-4E80-84EA-D030F5BCF961}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4287767-5DF2-4E80-84EA-D030F5BCF961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE97437F-56DE-46A5-99E6-9B983E1DC566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE97437F-56DE-46A5-99E6-9B983E1DC566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE97437F-56DE-46A5-99E6-9B983E1DC566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE97437F-56DE-46A5-99E6-9B983E1DC566}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

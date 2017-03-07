@@ -52,6 +52,7 @@
             this.txtpass.Name = "txtpass";
             this.txtpass.Size = new System.Drawing.Size(200, 20);
             this.txtpass.TabIndex = 1;
+            this.txtpass.UseSystemPasswordChar = true;
             // 
             // pictureBox1
             // 
@@ -74,6 +75,7 @@
             this.btniniciar.TabIndex = 5;
             this.btniniciar.Text = "Iniciar Seaion";
             this.btniniciar.UseVisualStyleBackColor = false;
+            this.btniniciar.Click += new System.EventHandler(this.btniniciar_Click);
             // 
             // btnsalir
             // 
@@ -83,6 +85,7 @@
             this.btnsalir.TabIndex = 6;
             this.btnsalir.Text = "Salir";
             this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
             // lblusurio
             // 
@@ -122,6 +125,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtpass);
             this.Controls.Add(this.txtUsuario);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
